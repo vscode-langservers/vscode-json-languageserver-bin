@@ -1,0 +1,4 @@
+[submodule "vscode-json-languageserver"]
+	path = vscode-json-languageserver
+	url = https://github.com/vscode-langservers/vscode-json-languageserver.git
+	ignore = dirty
