@@ -1,6 +1,6 @@
 {
   "name": "vscode-json-languageserver-bin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vscode-langservers/vscode-json-languageserver-bin.git"
@@ -12,7 +12,9 @@
   "devDependencies": {
     "typescript": "^2.4.2"
   },
-  "bin": { "json-languageserver" : "jsonServerMain.js" },
+  "bin": {
+    "json-languageserver": "jsonServerMain.js"
+  },
   "scripts": {
     "mergePackages": "node ./mergePackages.js",
     "addShebang": "sed -i '1i#!/usr/bin/env node' dist/jsonServerMain.js",
